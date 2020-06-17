@@ -1,0 +1,15 @@
+.jumbotron {
+    color: rgb(212, 216, 231);
+    text-align: center;
+    align-items: center;
+    background-image: url('../Assets/background.jpg');
+ 
+}
+#btnSearch {
+    background-color: blue;
+    color: white;
+}
+#clear-all {
+    background-color: blue;
+    color: white;
+}
