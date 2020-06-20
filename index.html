@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  ​
   <title>Weather Dashboard</title>
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="Assets/reset.css">​
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  \
-  <link rel="stylesheet" href="assets/style.css">
+ 
+  <link rel="stylesheet" href="Assets/style.css">
+  ​
 </head>
+
 <body>
+
   <body class="bg-light">
+    ​
     <!-- Main Bootstrap Search -->
     <div class="container">
+      ​
       <!-- Jumbotron for Title -->
       <div class="jumbotron">
         <h1 class="text-center">
@@ -23,6 +30,7 @@
           </strong>
         </h1>
       </div>
+      ​
       <!-- column for search city and recent searches -->
       <div class="container">
         <div class="row">
@@ -36,24 +44,29 @@
             <p></p>
             <p></p>
             <p></p>
-            Recent searches <p></p>
+            <h4>Recent searches</h4>
             <div id="recent-searches">
+
             </div>
           </div>
+
           <!-- column for current day weather conditions and 5 day forecast -->
+
           <div class="col-8" id="current-city-data">
-            <h3 class="city-data" id="city-name"></h3>
-            <div class="city-data" id="city-date"></h3>
+           <h3 class="city-data" id="city-date"></h3>
+            <h2 class="city-data" id="city-name"></h2>
+            <img class="city-data" id="city-icon"></img>
             <div class="city-data" id="city-temp"></div>
             <div class="city-data" id="city-humidity"></div>
             <div class="city-data" id="city-wind"></div>
             <div class="uvIndex"></div>
-          <div class="container">
+          
+          <div class="container" id="five-day-forecast">
             <div class="row">
               <div class="col-sm">
                 <div id="day1">
                   <div id="city-date1"></div>
-                  <div id="city-icon1"><img id="cityIcon1" src="" alt="Weather icon"></div>
+                  <img id="city-icon1"></img>
                   <div id="city-temp1"></div>
                   <div id="city-humidity1"></div>
                 </div>
@@ -61,7 +74,7 @@
               <div class="col-sm">
                 <div id="day2">
                   <div id="city-date2"></div>
-                  <div id="city-icon2"><img id="cityIcon2" src="" alt="Weather icon"></div>
+                  <img id="city-icon2"></img>
                   <div id="city-temp2"></div>
                   <div id="city-humidity2"></div>
                 </div>
@@ -70,7 +83,7 @@
                 <div class="col-sm">
                   <div id="day3">
                     <div id="city-date3"></div>
-                    <div id="city-icon3"><img id="cityIcon3" src="" alt="Weather icon"></div>
+                    <img id="city-icon3"></img>
                     <div id="city-temp3"></div>
                     <div id="city-humidity3"></div>
                   </div>
@@ -78,9 +91,9 @@
               </div>
               <div class="col-sm">
                 <div class="col-sm">
-                  <div id="day2">
+                  <div id="day4">
                     <div id="city-date4"></div>
-                    <div id="city-icon4"><img id="cityIcon4" src="" alt="Weather icon"></div>
+                    <img id="city-icon4"></img>
                     <div id="city-temp4"></div>
                     <div id="city-humidity4"></div>
                   </div>
@@ -88,9 +101,9 @@
               </div>
               <div class="col-sm">
                 <div class="col-sm">
-                  <div id="day2">
+                  <div id="day5">
                     <div id="city-date5"></div>
-                    <div id="city-icon5"><img id="cityIcon5" src="" alt="Weather icon"></div>
+                    <img id="city-icon5"></img>
                     <div id="city-temp5"></div>
                     <div id="city-humidity5"></div>
                   </div>
@@ -99,9 +112,16 @@
             </div>
           </div>
         </div>
+         ​
         </div>
+        ​
+        ​
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="assets/script.js"></script>
+        <script src="Assets/script.js"></script>
+
+        ​
+
   </body>
+
 </html>
