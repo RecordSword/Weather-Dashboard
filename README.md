@@ -16,18 +16,26 @@ SO THAT I can plan a trip accordingly
 
 ```
 GIVEN a weather dashboard with form inputs
+<!-- Multiple Inputs -->
 WHEN I search for a city
+<!-- Search Bar for cities -->
 THEN I am presented with current and future conditions for that city and that city is added to the search history
+<!-- Local Storage required to show previous cities -->
 WHEN I view current weather conditions for that city
 THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+<!-- GET AJAX information for requirements -->
 WHEN I view the UV index
 THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
+<!-- If statement for Colour thresholds -->
 WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
+
+<!-- Button inputs data from name -->
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
+<!-- Local Storage for last city searched -->
 ```
 
 The following image demonstrates the application functionality:
